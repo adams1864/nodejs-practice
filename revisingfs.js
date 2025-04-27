@@ -73,3 +73,43 @@ const fs = require('fs');
 //         console.log(`File Deleted`);
 //     })
 // }
+
+fs.writeFile('./practice-files/journal.txt', ' ',(err)=>{
+    if(err){
+        return err
+    }
+    console.log(`File Created`);
+
+fs.writeFile('./practice-files/journal.txt', 'Day 1 :Learning Node.js FS Module', (err)=>{
+    if(err){
+        return err
+    }
+    console.log(`note wrote in  joural.txt`);
+
+})
+fs.readFile('./practice-file/journal.txt',(err, data)=>{
+    if(err){
+        return err
+    }
+    console.log(data.toString());
+})
+fs.appendFile('./practice-files/journal.txt','\n Day 2: Practicing creating, reading, and reading files', (err)=>{
+    if(err){
+        return err
+    }
+    console.log(`Updated notes on journal.txt`);   
+})
+
+fs.readFile('./practice-file/journal.txt',(err, data)=>{
+    if(err){
+        return err
+    }
+    console.log(data.toString());
+})
+fs.unlink('./practice-files/journal.txt', (err)=>{
+    if(err){
+        return err
+    }
+    console.log(`file Deleted `)
+})
+})
