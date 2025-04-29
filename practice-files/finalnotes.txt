@@ -1,0 +1,2 @@
+Learning Node.js Node.js FS module is fun !
+ Appending some extra text
