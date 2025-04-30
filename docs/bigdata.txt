@@ -1,0 +1,10 @@
+I enjoy building backend applications using Node.js and Express.  
+Solving real-world problems with clean code gives me satisfaction.  
+I’m interested in scalable system design and API development.  
+Learning about distributed systems and databases fascinates me.  
+I like experimenting with new backend frameworks in my free time.  
+Creating RESTful services and working with SQL and NoSQL databases is my passion.  
+I often contribute to open-source projects and backend dev discussions.  
+Cloud computing and containerization are topics I actively explore.  
+Reading about software architecture keeps me motivated.  
+Teaching others and mentoring new developers is something I find rewarding.
