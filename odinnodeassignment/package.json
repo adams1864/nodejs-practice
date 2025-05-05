@@ -1,5 +1,5 @@
 {
-  "name": "express_lesson",
+  "name": "odinnodeassignment",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,8 +11,6 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "dotenv": "^16.5.0",
-    "ejs": "^3.1.10",
-    "express": "^5.1.0"
+    "dotenv": "^16.5.0"
   }
 }
